@@ -1,0 +1,33 @@
+{
+  "name": "task-crud-api",
+  "version": "1.0.0",
+  "description": "Task crud apis using postgres and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamvernekar/Task-CRUD-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamvernekar/Task-CRUD-API/issues"
+  },
+  "homepage": "https://github.com/shubhamvernekar/Task-CRUD-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.6.5",
+    "@types/pg": "^8.10.3",
+    "concurrently": "^8.2.1",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  }
+}
